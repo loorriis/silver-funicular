@@ -1,0 +1,97 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 700px;
+	margin: 0px auto;
+}
+
+body{
+	background: rgb(68, 84, 106);
+	text-align: center;
+	font-family: Caveat;
+}
+
+h1{
+	font-size: 48px;
+	font-weight: bold;
+	color: rgb(68, 84, 106);
+}
+
+h2{
+	font-size: 32px;
+	color: rgb(68, 84, 106);
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+#rounded-picture{
+	width: 100px;
+	border-radius: 50px;
+	margin: 20px;
+}
+
+.button{
+	background: rgb(68, 84, 106);
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 5px 22px;
+	border-radius: 50px;
+}
+
+.button:hover{
+	background: darkblue;
+	border-radius: 50px;
+}
+
+.card-white{
+	background: white;
+	width: 100%;
+	border-radius: 10px;
+	padding: 24px;
+
+	margin: 24px 0;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 1.0);
+}
+
+p{
+	margin: 7px 0px;
+	font-style: 18px;
+	font-size: 20px;
+}
+
+ol{
+	display: inline-flex;
+	padding: 0px;
+}
+
+li{
+	list-style: none;
+	font-size: 20px;
+}
+
+i{
+	font-size: 48px;
+	margin: 0px 18px;
+	color: rgb(68, 84, 106);
+}
+
+i:hover{
+	color: darkblue;
+}
+
+@media(max-width: 700px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 300px;
+	}
+}
